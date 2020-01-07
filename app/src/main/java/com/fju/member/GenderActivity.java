@@ -29,7 +29,7 @@ public class GenderActivity extends AppCompatActivity {
             pref.edit()
                     .putString("gender",gender)
                     .commit();
-            startActivityForResult(intent,8);
+            startActivityForResult(intent,6);
             finish();
         }
         else {
